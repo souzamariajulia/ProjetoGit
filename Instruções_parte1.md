@@ -25,7 +25,7 @@
    ```bash
    git init
    ```
-   - Inicializa um repositório Git vazio na pasta atual.
+   - Inicializa um repositório Git vazio (importante lembrar que esse repositorio está sendo incializado apenas na sua maquina).
 
 ### Adicionar e Comitar Arquivos
 
@@ -46,7 +46,8 @@
    ```
    - Comita os arquivos que estão na área de stage com uma mensagem descritiva.
 
-### Conectar ao GitHub
+__________________________________________________
+###   ***Conectar ao GitHub!!!*** >>> (conectar o repositório local com o GitHub)
 
 4. **Configurar Repositório Remoto**
    - No GitHub, crie um novo repositório e copie o link HTTPS do repositório.
@@ -63,7 +64,7 @@
    - Adicione o novo repositório remoto novamente com o comando anterior.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
-### Enviar Alterações para o GitHub **resumão para gravar na memória**
+### Enviar Alterações para o GitHub 
 
 6. **Enviar Alterações**
    ```bash
@@ -71,7 +72,7 @@
    ```
    - Envia os commits locais para o repositório remoto no GitHub.
 
-## Versionamento Contínuo
+## Versionamento Contínuo (explicação simpificada)
 
 1. **Verificar Modificações**
    ```bash
@@ -105,12 +106,11 @@
    git checkout -b "nome-da-branch"
    ```
 
-2. **Alterar Arquivos na Nova Branch**
-   - Realize as modificações necessárias.
-
-3. **Voltar para a Branch Principal**
+2. **Mudar de Branch**
    ```bash
-   git checkout main
+   git checkout "nome-da-branch"
    ```
 
-Seguindo esses passos, você poderá gerenciar o versionamento de seu código com eficiência usando Git e GitHub através do Git Bash.
+
+
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg) fim da parte 1!
